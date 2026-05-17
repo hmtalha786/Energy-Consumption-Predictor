@@ -64,14 +64,16 @@ Project/
 │
 ├── app.py                     # Streamlit Frontend
 ├── main.py                    # FastAPI Backend
-├── train_model.py             # Model Training Script
-├── energy_model.pkl           # Trained ML Model
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
 │
-├── data/
-     └── train_energy_data.csv
+├── model/
+    └── full_analysis_code.ipynb
+    └── train_energy_data.csv
+    └── test_energy_data.csv
+    └── train_model.py             # Model Training Script
+    └── energy_model.pkl           # Trained ML Model
 ```
 
 ---
